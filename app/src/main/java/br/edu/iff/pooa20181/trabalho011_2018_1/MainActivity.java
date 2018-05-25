@@ -91,7 +91,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             saida = "Número inválido!! \n";
             opcao01.setText(saida);
+            opcao02.setText(" ");
+            ocao03.setText(" ");
             opcao01.setVisibility(View.VISIBLE);
+            opcao02.setVisibility(View.VISIBLE);
+            opcao03.setVisibility(View.VISIBLE);
         }
     }
 }
