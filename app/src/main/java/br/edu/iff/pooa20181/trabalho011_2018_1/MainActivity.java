@@ -87,5 +87,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             opcao02.setVisibility(View.VISIBLE);
             opcao03.setVisibility(View.VISIBLE);
         }
+        else
+        {
+            saida = "Número inválido!! \n";
+            opcao01.setText(saida);
+            opcao01.setVisibility(View.VISIBLE);
+        }
     }
 }
